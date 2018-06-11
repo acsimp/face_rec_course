@@ -1,0 +1,18 @@
+fetch() seems to be undefined.
+The fetch API is not implemented in Node.js, native support for it is only available in browsers. You need to use an external module for that, and a good one is node-fetch.
+https://www.npmjs.com/package/node-fetch
+
+login form - sumbit with enter key
+
+register and login validation - browser and server side
+
+clear user state on logout
+
+password bcrypt
+
+hide api key - move clarifi and api into the server.js
+- or environmental variable?
+
+listen for dynamic port using process.env rather than hard code 8080 for example
+
+dynamic databaseURL - process.env.DATABASE_URL
